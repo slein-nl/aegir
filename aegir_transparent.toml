@@ -1,0 +1,84 @@
+"ui.background"           = { fg = "white" }
+"ui.background.separator" = { fg = "gray" }
+"ui.menu"                 = { fg = "gray" }
+"ui.menu.selected"        = { modifiers = ["reversed"] }
+"ui.menu.scroll"          = { fg = "white" }
+"ui.linenr"               = { fg = "gray" }
+"ui.linenr.selected"      = { fg = "white",  modifiers = ["bold"] }
+"ui.popup"                = { fg = "white" }
+"ui.window"               = { fg = "white" }
+"ui.selection"            = { bg = "dark_gray" }
+"comment"                 = { fg = "gray", modifiers = ["italic"] }
+"ui.statusline"           = { fg = "white" }
+"ui.statusline.inactive"  = { fg = "gray" }
+"ui.statusline.normal"    = { fg = "blue", modifiers = ["reversed"] }
+"ui.statusline.insert"    = { fg = "green", modifiers = ["reversed"] }
+"ui.statusline.select"    = { fg = "magenta", modifiers = ["reversed"] }
+"ui.help"                 = { fg = "white" }
+"ui.cursor"               = { modifiers = ["reversed"] }
+"ui.cursor.match"         = { fg = "gold", modifiers = ["underlined"] }
+"ui.cursor.primary"       = { modifiers = ["reversed"] }
+"ui.cursor.secondary"     = { modifiers = ["reversed"] }
+"ui.virtual.ruler"        = { fg = "gray", modifiers = ["reversed"] }
+"ui.virtual.jump-label"   = { fg = "orange", modifiers = ["bold"] }
+"ui.virtual.whitespace"   = "gray"
+"ui.virtual.indent-guide" = "gray"
+
+"tag"              = "green"
+"variable"         = "bright-cyan"
+"constant.numeric" = "gold"
+"constant"         = "gold"
+"attribute"        = "bright-cyan"
+"punctuation"      = "white"
+"type"             = "green"
+"string"           = "gold"
+"function"         = "blue"
+"constructor"      = "blue"
+"special"          = "blue"
+"keyword"          = "magenta"
+"label"            = "magenta"
+"namespace"        = "green"
+"operator"         = "white"
+
+"markup.heading"   = "blue"
+"markup.list"      = "red"
+"markup.link.text" = "red"
+"markup.quote"     = "bright-cyan"
+"markup.raw"       = "green"
+"markup.normal"    = { fg = "blue" }
+"markup.insert"    = { fg = "green" }
+"markup.select"    = { fg = "magenta" }
+"markup.bold"      = { fg = "gold",    modifiers = ["bold"] }
+"markup.italic"    = { fg = "magenta", modifiers = ["italic"] }
+"markup.link.url"  = { fg = "gold",    modifiers = ["underlined"] }
+
+"diff.plus"  = "green"
+"diff.delta" = "gold"
+"diff.minus" = "red"
+
+"ui.gutter" = "gray" 
+"info"      = "blue" 
+"hint"      = "gray" 
+"debug"     = "gray"  
+"warning"   = "gold" 
+"error"     = "red" 
+
+"diagnostic"         = { modifiers = ["underlined"] }
+"diagnostic.warning" = { modifiers = ["underlined"] }
+"diagnostic.error"   = { modifiers = ["underlined"] }
+"diagnostic.info"    = { fg = "blue", modifiers = ["underlined"] }
+"diagnostic.hint"    = { fg = "gray", modifiers = ["underlined"] }
+"diagnostic.debug"   = { fg = "gray", modifiers = ["underlined"] }
+
+[palette]
+dark_gray   = "#2d3640"
+gray        = "#6e7681"
+red         = "#f14c4c"
+green       = "#19c27f"   
+blue        = "#3b8eea"   
+magenta     = "#f76dbc"   
+white       = "#b1bac4"   
+bright-cyan = "#29b7da" 
+orange      = "#ffa500" 
+gold        = "#f2bf50" 
+bg          = "#0e0e14"
