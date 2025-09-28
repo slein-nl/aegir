@@ -7,7 +7,7 @@
 "ui.linenr.selected"      = { fg = "white",  modifiers = ["bold"] }
 "ui.popup"                = { fg = "white" }
 "ui.window"               = { fg = "white" }
-"ui.selection"            = { bg = "dark_gray" }
+"ui.selection"            = { bg = "dark-gray" }
 "comment"                 = { fg = "gray", modifiers = ["italic"] }
 "ui.statusline"           = { fg = "white" }
 "ui.statusline.inactive"  = { fg = "gray" }
@@ -17,12 +17,12 @@
 "ui.help"                 = { fg = "white" }
 "ui.cursor"               = { modifiers = ["reversed"] }
 "ui.cursor.match"         = { fg = "gold", modifiers = ["underlined"] }
-"ui.cursor.primary"       = { modifiers = ["reversed"] }
+"ui.cursor.primary"       = { modifiers = ["reversed"], fg = "white" }
 "ui.cursor.secondary"     = { modifiers = ["reversed"] }
 "ui.virtual.ruler"        = { fg = "gray", modifiers = ["reversed"] }
 "ui.virtual.jump-label"   = { fg = "orange", modifiers = ["bold"] }
 "ui.virtual.whitespace"   = "gray"
-"ui.virtual.indent-guide" = "gray"
+"ui.virtual.indent-guide" = "dark-gray"
 
 "tag"              = "green"
 "variable"         = "bright-cyan"
@@ -71,7 +71,7 @@
 "diagnostic.debug"   = { fg = "gray", modifiers = ["underlined"] }
 
 [palette]
-dark_gray   = "#2d3640"
+dark-gray   = "#2d3640"
 gray        = "#6e7681"
 red         = "#f14c4c"
 green       = "#19c27f"   
@@ -81,4 +81,5 @@ white       = "#b1bac4"
 bright-cyan = "#29b7da" 
 orange      = "#ffa500" 
 gold        = "#f2bf50" 
+bg-dark     = "#0d0d13"
 bg          = "#0e0e14"
